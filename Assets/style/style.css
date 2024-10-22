@@ -38,8 +38,8 @@ body{
 
 .behind{
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 14px;
+  left: 14px;
   z-index: -1;
   width: 270px;
   height: 400px;
