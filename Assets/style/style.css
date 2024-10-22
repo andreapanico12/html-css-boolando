@@ -44,16 +44,20 @@ a:hover{
  color: black;
 }
 
-
-
 header{
   padding-top: 15px;
   display: flex;
   height: 60px;
   justify-content: space-around;
   background-color: #fe6900;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 
+main{
+  padding-top: 80px;
+}
 
 .logo{
   width: 120px;
