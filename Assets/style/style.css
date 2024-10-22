@@ -46,8 +46,8 @@ a:hover{
 
 header{
   padding-top: 15px;
+  padding-bottom: 15px;
   display: flex;
-  height: 60px;
   justify-content: space-around;
   background-color: #fe6900;
   position: fixed;
@@ -147,3 +147,19 @@ main{
   text-decoration: line-through;
 }
 
+footer{
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 10px 60px;
+}
+
+footer div ul li a{
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+footer div ul li a:hover{
+  color: darkgray;
+}
