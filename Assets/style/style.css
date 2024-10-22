@@ -36,6 +36,23 @@ body{
   padding: 15px;
 }
 
+.behind{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: -1;
+  width: 270px;
+  height: 400px;
+}
+.images:hover{
+  cursor: pointer;
+}
+
+.images:hover .behind{
+  z-index: 2;
+}
+
+
 .caption{
   font-size: 0.8rem;
 }
