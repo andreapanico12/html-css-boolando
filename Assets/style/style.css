@@ -70,6 +70,20 @@ body{
   left: 55px;
 }
 
+.hearts{
+  font-size: 1.5rem;
+  background-color: white;
+  position: absolute;
+  z-index: 3;
+  top: 40px;
+  right: 15px;
+  padding: 10px;
+}
+
+.hearts:hover{
+  color: red;
+}
+
 .caption{
   font-size: 0.8rem;
 }
