@@ -82,6 +82,11 @@ body{
 
 .hearts:hover{
   color: red;
+  cursor: pointer;
+}
+
+.hearts:hover .behind{
+  z-index: -1;
 }
 
 .caption{
