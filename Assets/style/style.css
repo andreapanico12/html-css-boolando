@@ -14,8 +14,6 @@
 
 
 .flex-box{
-  display:  flex;
-  justify-content: center;
 }
 /* /utility */
 
@@ -64,25 +62,33 @@ main{
 }
 
 .container{
-  flex-direction: column;
   margin: 0 auto;
-  max-width: 1100px;
+  max-width: 1370px;
+  padding: 0 10px;
 }
 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col{
+  width: 33%;
+  padding: 0 10px;
+}
 
 .card{
   position: relative;
-  width: 30%;
-  padding: 15px;
+  padding-bottom: 10px;
+
 }
 
 .behind{
   position: absolute;
-  top: 15px;
-  left: 14px;
+  top: 1px;
+  left: px;
   z-index: -1;
-  width: 302px;
-  height: 435px;
+
 }
 .images:hover{
   cursor: pointer;
@@ -120,7 +126,7 @@ main{
   position: absolute;
   z-index: 3;
   top: 40px;
-  right: 15px;
+  right: 0px;
   padding: 10px;
 }
 
