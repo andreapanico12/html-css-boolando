@@ -34,7 +34,7 @@ ul{
 a{
   text-decoration: none;
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 800;
   padding-left: 8px;
 }
@@ -43,22 +43,28 @@ a:hover{
 }
 
 header{
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 20px 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #fe6900;
   position: fixed;
   width: 100%;
   z-index: 5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0,.5);
+  
+}
+
+.nav{
+  width: 40%;
 }
 
 main{
-  padding-top: 80px;
+  padding: 140px 120px;
+  padding-bottom: 30px;
 }
 
 .logo{
-  width: 120px;
+  width: 130px;
 }
 
 .container{
@@ -73,7 +79,7 @@ main{
 }
 
 .col{
-  width: 33%;
+  width: calc(100% / 3);
   padding: 0 10px;
 }
 
